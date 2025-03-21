@@ -63,6 +63,11 @@ const linkDemo1 = () => {
       <p></p>
       <button onClick={btnDemo1}>Button Demo 1</button>
       <p></p>
+      <hr></hr>
+      <a href="#">useRef Demo 1</a>
+      <p></p>
+      <a href="#">useRef Demo 2</a>
+      <p></p>
         <Footer title="Footer" year={2025}/>
     </div>
     <div id="div-display" ref={divDisplay}>
