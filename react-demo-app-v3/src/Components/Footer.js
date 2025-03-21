@@ -1,7 +1,7 @@
-const Footer = () => {
+const Footer = (props) => {
     return(
       <>
-        <p>Footer @ 2025</p>
+        <p>{props.title} @ {props.year}</p>
       </>
     )
   }

@@ -21,7 +21,7 @@ function App() {
   return (
     <>
     <div>
-      <Header/>
+      <Header title="React Demo App v3"/>
       <p></p>
       <a href="#" onClick={linkDemo1}>link Demo 1</a>
       <p></p>
@@ -29,7 +29,7 @@ function App() {
       <p></p>
       <button onClick={btnDemo1}>Button Demo 1</button>
       <p>
-        <Footer/>
+        <Footer title="Footer" year="2025"/>
       </p>
     </div>
     </>

@@ -1,7 +1,7 @@
-export default function Header() {
+export default function Header(props) {
     return(
       <>
-        <h1>React Demo app v3</h1>
+        <h1>{props.title}</h1>
       </>
     )
   }
