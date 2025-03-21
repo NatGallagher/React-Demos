@@ -5,10 +5,12 @@ import Footer from "./Components/Footer"
 
 function App() {
 
- const divDisplay = useRef("") //reference, select manipulate jsx element ie: DOM
+//-- useState = creat in-memory data accessable by all fnctions/components on the current component/page
+const [strMsg, setStrMsg] = useState("")
+const divDisplay = useRef("") //reference, select manipulate jsx element ie: DOM
 
 
-  const linkDemo1 = () => {
+const linkDemo1 = () => {
     let msgText = "linkDemo1"
     console.log(msgText);
     divDisplay.current.innerText = msgText;
