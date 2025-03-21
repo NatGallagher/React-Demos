@@ -29,7 +29,7 @@ function App() {
       <p></p>
       <button onClick={btnDemo1}>Button Demo 1</button>
       <p>
-        <Footer title="Footer" year="2025"/>
+        <Footer title="Footer" year={2025}/>
       </p>
     </div>
     </>
