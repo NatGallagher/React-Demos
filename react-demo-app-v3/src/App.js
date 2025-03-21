@@ -1,3 +1,6 @@
+import Header from "./Components/Header"
+import Footer from "./Components/Footer"
+
 function App() {
 
   const linkDemo1 = () => {
@@ -12,21 +15,9 @@ function App() {
 
   //components
 
-  function Header() {
-    return(
-      <>
-        <h1>React Demo app v3</h1>
-      </>
-    )
-  }
+ 
 
-  const Footer = () => {
-    return(
-      <>
-        <p>Footer @ 2025</p>
-      </>
-    )
-  }
+  
   return (
     <>
     <div>
