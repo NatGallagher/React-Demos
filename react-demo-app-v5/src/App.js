@@ -1,9 +1,15 @@
 
 
 function App() {
+
+  function Header() {
+    return(
+      <h2>React Demo App 2.1</h2>
+    )
+  }
   return (
     <>
-      <h2>React Demo App 2.0</h2>
+      <Header/>
       <div>
         <a href="#">lnkExample1</a>
         <p></p>
