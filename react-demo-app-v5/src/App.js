@@ -1,13 +1,10 @@
 import Header from "./components/Header"
+import Footer from "./components/Footer"
 
 function App() {
 
 
-  const Footer = () => {
-    return(
-      <p>Footer @ 2025</p>
-    )
-  }
+  
   return (
     <>
       <Header/>
