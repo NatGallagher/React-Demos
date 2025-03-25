@@ -3,6 +3,7 @@ import About from "./components/About"
 import Home from "./components/Home"
 import NavBar from "./components/NavBar"
 import Header from "./components/Header"
+import Footer from "./components/Footer"
 
 function App() {
 
@@ -15,7 +16,8 @@ function App() {
         <Route path="/" element={<Home/>}/>
         <Route path="/about" element={<About/>}/>
       </Routes>
-    </HashRouter>    
+    </HashRouter> 
+    <Footer/>   
    </>
   );
 }
