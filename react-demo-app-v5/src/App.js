@@ -1,4 +1,4 @@
-import {BrowserRouter, Routes, Route} from "react-router-dom"
+import {HashRouter, Routes, Route} from "react-router-dom"
 import About from "./components/About"
 import Home2 from "./components/Home2"
 import Header from "./components/Header";
@@ -13,14 +13,14 @@ function App() {
   return (
     <>
     
-      <BrowserRouter> 
+      <HashRouter> 
       <NavBar/> 
       <Header/>          
       <Routes>      
         <Route path="/" element={<Home2/>}/>
         <Route path="/about" element={<About/>}/>
       </Routes>
-    </BrowserRouter>    
+    </HashRouter>    
 
       <Footer/>
     </>
