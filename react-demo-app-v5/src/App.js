@@ -4,6 +4,7 @@ import Home2 from "./components/Home2"
 import Header from "./components/Header";
 import Footer from "./components/Footer"
 import NavBar from "./components/NavBar"
+import Page1 from "./components/Page1"
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
       <Routes>      
         <Route path="/" element={<Home2/>}/>
         <Route path="/about" element={<About/>}/>
+        <Route path="/page1" element={<Page1/>}/>
       </Routes>
     </HashRouter>    
 
