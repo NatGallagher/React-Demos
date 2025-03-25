@@ -7,9 +7,6 @@ import NavBar from "./components/NavBar"
 import Page1 from "./components/Page1"
 
 function App() {
-
-  
-
   
   return (
     <>
