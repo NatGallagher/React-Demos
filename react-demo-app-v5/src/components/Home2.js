@@ -1,4 +1,4 @@
-function Home() {
+function Home2() {
 
     function lnkuseRefDemo1() {
       let msgText = "lnkuseRefDemo1";
@@ -29,5 +29,5 @@ function Home() {
     );
   }
   
-  export default Home;
+  export default Home2;
   
