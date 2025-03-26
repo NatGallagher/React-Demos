@@ -17,7 +17,7 @@ function Home() {
         <a href="#" onClick={useStateDemo1}>useStateDemo1</a>
         <p></p>
         <div>
-          [Deploy Test]
+          [Display Info]
         </div>
       </>
     );
