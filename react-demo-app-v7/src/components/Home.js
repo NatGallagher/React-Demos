@@ -12,13 +12,12 @@ function Home() {
   
     return (
       <>
-        <h2>React Demo 3.0</h2>
         <a href="#" onClick={useRefDemo1}>useRefDemo1</a>
         <p></p>
         <a href="#" onClick={useStateDemo1}>useStateDemo1</a>
         <p></p>
         <div>
-          [Imported From Home]
+          [Imported Header and Footer]
         </div>
       </>
     );
